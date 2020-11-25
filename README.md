@@ -2,7 +2,9 @@
 Uses two-dimensional array to measure the performance of image rotations by using three different array-access patterns with different locality properties. 
 
 ----------------------README-------------------------
+
 ----------mshiel04-----------------kepifa01----------
+
 ----------------------ppmtrans-----------------------
 
 by Kate Epifanio and Milo Shields
@@ -58,52 +60,94 @@ to this external array instead of the original.
 
 ********* CPU TIME REPORT *********
 
+
 All reported tests performed on same machine via halligan server
+
 Rotation Performed:      90
+
 Mapping Type:      Row Major
+
 Number of Pixels:      13454208
+
 Total Time:      1344347188.000000
+
 Time Per Pixel:      99.920203
+
 ********* CPU TIME REPORT *********
 
+
 All reported tests performed on same machine via halligan server
+
 Rotation Performed:      90
+
 Mapping Type:      Column Major
+
 Number of Pixels:      13454208
+
 Total Time:      1411699449.000000
+
 Time Per Pixel:      104.926239
+
 ********* CPU TIME REPORT *********
 
+
 All reported tests performed on same machine via halligan server
+
 Rotation Performed:      90
+
 Mapping Type:      Block Major
+
 Number of Pixels:      13454208
+
 Total Time:      1267469477.000000
+
 Time Per Pixel:      94.206175
+
 ********* CPU TIME REPORT *********
 
+
 All reported tests performed on same machine via halligan server
+
 Rotation Performed:      180
+
 Mapping Type:      Row Major
+
 Number of Pixels:      13454208
+
 Total Time:      695270118.000000
+
 Time Per Pixel:      51.676778
+
 ********* CPU TIME REPORT *********
 
+
 All reported tests performed on same machine via halligan server
+
 Rotation Performed:      180
+
 Mapping Type:      Column Major
+
 Number of Pixels:      13454208
+
 Total Time:      2076713396.000000
+
 Time Per Pixel:      154.354191
+
 ********* CPU TIME REPORT *********
 
+
 All reported tests performed on same machine via halligan server
+
 Rotation Performed:      180
+
 Mapping Type:      Block Major
+
 Number of Pixels:      13454208
+
 Total Time:      1435697021.000000
+
 Time Per Pixel:      106.709887
+
 
 
 Rotate 90:
